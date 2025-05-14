@@ -39,3 +39,30 @@ console.log(typeof myFunction); // function
 console.log(typeof myObj); // object
 console.log(typeof heros); // object
 console.log(typeof id); // symbol
+
+
+// ********************************************* Memory ********************************************
+
+// typeof memory   
+
+// stack memory (primitive data types)
+// heap memory (non primitive data types)
+
+
+let myName = "Raja"; // stack memory
+let myAnotherName = myName; 
+myAnotherName = "Rajendra"; 
+console.log(myAnotherName); // Rajendra
+console.log(myName); // Raja
+
+
+let user1 = { 
+    name : "Raja",
+    email : "raja@gmail.com",
+    age : 30
+} // heap memory
+
+let user2 = user1; // reference
+user2.name = "Rajendra"; // change the name of user2
+console.log(user1.name); // Rajendra
+console.log(user2.name); // Rajendra
