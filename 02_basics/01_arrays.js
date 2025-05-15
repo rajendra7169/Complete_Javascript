@@ -1,7 +1,7 @@
-// Arrays in JavaScript
-// // Arrays are used to store multiple values in a single variable.
-// // An array is a special variable, which can hold more than one value at a time.
-// // An array is an object that has a length property and can be accessed using an index.
+Arrays in JavaScript
+// Arrays are used to store multiple values in a single variable.
+// An array is a special variable, which can hold more than one value at a time.
+// An array is an object that has a length property and can be accessed using an index.
 
 const myArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 console.log(myArray[0]); // 1
@@ -30,3 +30,11 @@ myArray.splice(2, 0, 3, 4); // add 2 elements at index 2
 console.log(myArray); // [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 
 console.log(myArray.indexOf(5)); // 4  
+
+
+
+myArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log("A", myArr);
+const myn1 = myArr.slice(2, 5); // slice the array from index 2 to index 5
+console.log(myn1); // [ 3, 4, 5 ]
+console.log("B", myArr);
