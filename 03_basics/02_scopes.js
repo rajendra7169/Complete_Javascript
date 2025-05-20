@@ -52,7 +52,7 @@ function addone(num){
 
 
 
-addTwo(5)
+// addTwo(5) // can not access this function because of hoisting 
 const addTwo = function(num){
     return num + 2
 }
